@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build",
+    "build": "storybook build && touch ./storybook-static/.nojekyll",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
