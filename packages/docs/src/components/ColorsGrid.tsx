@@ -1,8 +1,10 @@
-import { colors } from '@ignite-ui/tokens'
+// import { colors } from '@ignite-ui/tokens'
 import { getContrast } from 'polished'
 
+import { colorFigma } from '@ignite-ui/tokens';
+
 export function ColorsGrid() {
-    return Object.entries(colors).map(([key, color]) => {
+    return Object.entries(colorFigma).map(([key, color]) => {
         return (
             <div key={key} style={{ backgroundColor: color, padding: '2rem' }}>
                 <div

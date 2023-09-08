@@ -2,12 +2,13 @@
   "name": "@ignite-ui/tokens",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.js",
+  "main": "./dist",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev ": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build-tokens": "style-dictionary build --config ./config.js",
+    "build": "npm run build-tokens && tsup src/index.ts --format esm,cjs --dts",
+    "dev ": "npm run build-tokens && tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/ts-config": "*",
+    "style-dictionary": "^3.8.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.0"
   }
