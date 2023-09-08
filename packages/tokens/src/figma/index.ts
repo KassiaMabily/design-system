@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 08 Sep 2023 20:44:17 GMT
+ * Generated on Fri, 08 Sep 2023 20:49:23 GMT
  */
 
 export const colorWhite = "#ffffff";
@@ -12,3 +12,4 @@ export const colorGray800 = "#202024";
 export const colorGray900 = "#121214";
 export const colorIgnite500 = "#00b37e";
 export const colorIgnite600 = "#00875f";
+export const colorIgnite700 = "#004d36";
