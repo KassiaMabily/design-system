@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const tokens = require('./figma')
-
 // {
 //   "source": ["src/input/**/*.json"],
 //   "platforms": {
@@ -21,15 +18,12 @@ module.exports = {
     'esm/category': {
       buildPath: 'src/figma/',
       transforms: ['attribute/cti', 'name/cti/camel', 'size/px', 'color/hex'],
-      files: tokens.map((tokenCategory) => ({
-        destination: `${tokenCategory}.ts`,
-        format: 'javascript/es6',
-        filter: {
-          attributes: {
-            category: tokenCategory,
-          },
+      files: [
+        {
+          destination: 'index.ts',
+          format: 'javascript/es6',
         },
-      })),
+      ],
     },
   },
 }
