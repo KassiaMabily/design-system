@@ -1,7 +1,7 @@
-// import { colors } from '@ignite-ui/tokens'
+// import { colors } from '@kassiafraga-ignite-ui/tokens'
 import { getContrast } from 'polished'
 
-import { figma } from '@ignite-ui/tokens';
+import { figma } from '@kassiafraga-ignite-ui/tokens';
 
 export function ColorsGrid() {
     return Object.entries(figma).map(([key, color]) => {

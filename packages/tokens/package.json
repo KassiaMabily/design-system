@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/tokens",
+  "name": "@kassiafraga-ignite-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist",
@@ -15,8 +15,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/ts-config": "*",
+    "@kassiafraga-ignite-ui/eslint-config": "*",
+    "@kassiafraga-ignite-ui/ts-config": "*",
     "style-dictionary": "^3.8.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.0"

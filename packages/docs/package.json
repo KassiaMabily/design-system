@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@kassiafraga-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,10 +17,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@kassiafraga-ignite-ui/eslint-config": "*",
+    "@kassiafraga-ignite-ui/react": "*",
+    "@kassiafraga-ignite-ui/tokens": "*",
+    "@kassiafraga-ignite-ui/ts-config": "*",
     "@storybook/addon-essentials": "^7.4.0",
     "@storybook/addon-interactions": "^7.4.0",
     "@storybook/addon-links": "^7.4.0",
